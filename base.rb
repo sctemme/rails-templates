@@ -20,7 +20,7 @@ gem_group :development, :test do
 end
 
 gem_group :test do
-#   gem 'database_cleaner'
+  gem 'database_cleaner'
 #   gem 'factory_girl'
 #   gem 'spork'
 #   gem 'launchy'
