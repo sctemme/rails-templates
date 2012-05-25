@@ -14,7 +14,7 @@ git :init
 # public/assets
 # END
 
-append_to_file '.gitignore', '.idea'
+append_to_file '.gitignore', ".idea\n"
 
 gem_group :development, :test do
   gem 'rspec-rails'
