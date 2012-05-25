@@ -14,6 +14,8 @@ git :init
 # public/assets
 # END
 
+append_to_file '.gitignore', '.idea'
+
 gem_group :development, :test do
   gem 'rspec-rails'
 #  gem 'sqlite3'
